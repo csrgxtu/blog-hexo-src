@@ -12,7 +12,7 @@ NodeJs as a programming language quickly draw the programmer's attention in abou
 If you think that PHP or Ruby has boosted the development of the Web, then this time is NodeJs.
 
 And even more I think NodeJs can do a lot more than web programming
-<!--More-->
+<!--more-->
 
 ## Backgrounds
 NodeJs isn't a completely new tech, it is envolved from JavaScript programming language.
