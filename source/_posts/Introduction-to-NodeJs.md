@@ -1,6 +1,7 @@
 title: "Introduction to NodeJs"
 date: 2015-03-16 13:34:59
-tags: NodeJs, JavaScript
+tags: [NodeJs, JavaScript]
+categories: Programming Language
 ---
 ![NodeJs Logo](http://23daps42d4g822ubuj3etiws15ld.wpengine.netdna-cdn.com/wp-content/uploads/2014/02/nodejs-logo-225x180.png)
 ## Abstract
@@ -11,6 +12,7 @@ NodeJs as a programming language quickly draw the programmer's attention in abou
 If you think that PHP or Ruby has boosted the development of the Web, then this time is NodeJs.
 
 And even more I think NodeJs can do a lot more than web programming
+<!--More-->
 
 ## Backgrounds
 NodeJs isn't a completely new tech, it is envolved from JavaScript programming language.
