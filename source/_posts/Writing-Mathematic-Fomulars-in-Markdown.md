@@ -10,6 +10,14 @@ I am not gonna to tell you how to make all these things work together, if you wa
 Most import, this post is showing you the basics about math symbols in [Latex](http://www.latex-project.org/).
 <!--more-->
 
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+Symbol |
+--------------------- 
+Script |
 ### Reference
 [Atom](http://atom.io) - Atom editor for hackers
 
@@ -22,3 +30,5 @@ Most import, this post is showing you the basics about math symbols in [Latex](h
 [Latex](http://www.latex-project.org/) - Latex Homepage
 
 [Wiki Latex Mathematics](http://en.wikibooks.org/wiki/LaTeX/Mathematics) - introduction to math symbols in latex
+
+[Github tables](https://help.github.com/articles/github-flavored-markdown/) - Github Flavored Markdown
