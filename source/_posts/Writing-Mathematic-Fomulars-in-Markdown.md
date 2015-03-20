@@ -14,9 +14,9 @@ Most import, this post is showing you the basics about math symbols in [Latex](h
 Symbol    | Script
 ----------|-------
 $\alpha$  |\alpha
-A         |A
+$A$       |A
 $\beta$   |\beta
-B         |B
+$B$         |B
 $\gamma$  |\gammma
 $\Gamma$  |\Gamma
 $\pi$     |\pi
@@ -85,31 +85,9 @@ $\idotsint$|\idotsint
 $\sum_{\substack{0<i<m\\0<j<n}} P(i, j)$|\sum_{\substack{0<i<m\\0<j<n}} P(i, j)
 $\int\limits_a^b$|\int\limits_a^b
 
-### Brackets etc
-Symbol     | Script
------------|--------
-$(a)$      |(a)
-$[a]$      |[a]
-$\{a\}$    |\{a\}
-$\langle f \rangle$|\langle f \rangle
-$\lfloor f \rfloor$|\lfloor f \rfloor
-$\lceil f \rceil$  |\lceil f \rceil
-$\ulcorner f \urcorner$|\ulcorner f \urcorner
-$\left(\frac{x^2}{y^3}\right)$|\left(\frac{{x^2}{y^3}}\right)
-$\left[x^2\right]$|\left[x^2\right]
-$($        |(
-$\big($    |\big(
-$\Big($    |\Big(
-$\bigg($   |\bigg(
-$\Bigg($   |\Bigg(
-$x \in [0, 1]$|x \in [0, 1]
-$\begin{matrix}a&b&c\\d&e&f\\g&h&i\end{matrix}$|\begin{matrix}a&b&c\\\d&e&f\\\g&h&i\end{matrix}
-$\begin{matrix}a&b&c\\d&e&f\\g&h&i\end{matrix}=\begin{matrix}a&b&c\\d&e&f\\g&h&i\end{matrix}$|\begin{matrix}a&b&c\\d&e&f\\g&h&i\end{matrix}=\begin{matrix}a&b&c\\d&e&f\\g&h&i\end{matrix}
-
 Symbol    | Script
 ----------|--------
 $a'$ $a^{\prime}$|a` a^{\prime}
-
 
 ### Reference
 [Atom](http://atom.io) - Atom editor for hackers
