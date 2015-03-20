@@ -10,6 +10,12 @@ I am not gonna to tell you how to make all these things work together, if you wa
 Most import, this post is showing you the basics about math symbols in [Latex](http://www.latex-project.org/).
 <!--more-->
 
+This what wikipedia said about Latex:
+
+>One of the greatest motivating forces for Donald Knuth when he began developing the original TeX system was to create something that allowed simple construction of mathematical formulas, while looking professional when printed.
+
+Here are some symbols I typed during the learning.
+
 ### Greek Letters
 Symbol    | Script
 ----------|-------
@@ -88,6 +94,47 @@ $\int\limits_a^b$|\int\limits_a^b
 Symbol    | Script
 ----------|--------
 $a'$ $a^{\prime}$|a` a^{\prime}
+$a''$     |a''
+$\hat{a}$ |hat{a}
+$\bar{a}$ |\bar{a}
+$\grave{a}$|\grave{a}
+$\acute{a}$|\acute{a}
+$\dot{a}  |\dot{a}
+$\ddot{a}$ |\ddot{a}
+$\not{a}$ |\not{a}
+$\mathring{a}$|\mathring{a}
+$\overrightarrow{AB}$|\overrightarrow{AB}
+$\overleftarrow{AB}$|\overleftarrow{AB}
+$a'''$    |a'''
+$\overline{aaa}$|\overline{aaa}
+$\check{a}$|\check{a}
+$\vec{a}$ |\vec{a}
+$\underline{a}$|\underline{a}
+$\color{red}x$|\color{red}x
+$\pm$     |\pm
+$\mp$     |\mp
+$\int y \mathrm{d}x$|\int y \mathrm{d}x
+$\,$      |\,
+$\:$      |\:
+$\;$      |\;
+$\!$      |\!
+$\int y\, \mathrm{d}x$|\int y\, \mathrm{d}x
+$\dots$   |\dots
+$\ldots$  |\ldots
+$\cdots$  |\cdots
+$\vdots$  |\vdots
+$\ddots$  |\ddots
+
+### Brackets etc
+Symbol     | Script
+-----------|--------
+$(a)$      |(a)
+$[a]$      |[a]
+$\{a\}$    |\{a\}
+$\langle f \rangle$|\langle f \rangle
+$\lfloor f \rfloor$|\lfloor f \rfloor
+$\lceil f \rceil$  |\lceil f \rceil
+$\ulcorner f \urcorner$|\ulcorner f \urcorner
 
 ### Reference
 [Atom](http://atom.io) - Atom editor for hackers
