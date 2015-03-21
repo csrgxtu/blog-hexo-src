@@ -1,10 +1,10 @@
 # Header
 menu:
+  All: /archives
   Home: /
   Linux: /linux
-  Programming: /programming
   DataLab: /datalab 
-  All: /archives
+  Programming: /programming
   # 随笔: /tags/随笔
 
 # SubNav
