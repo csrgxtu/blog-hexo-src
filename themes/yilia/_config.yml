@@ -2,9 +2,9 @@
 menu:
   All: /archives
   Home: /
-  Linux: /linux
-  DataLab: /datalab 
-  Programming: /programming
+  Linux: /categories/Linux
+  DataLab: /categories/DataLab 
+  Programming: /categories/Programming
   # 随笔: /tags/随笔
 
 # SubNav
