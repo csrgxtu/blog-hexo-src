@@ -15,3 +15,20 @@ categories: [NodeJs, Programming]
 
 ### NodeJs服务器的问题
 因为NodeJs采用单线程，异步IO的处理方式，服务其的主体程序是在一个JavaScript主线程中通过异步的方式执行的，所以一旦编写的程序哪一个部分出错，则可能导致服务器崩溃或者后续的操作不可预测，最后导致整个服务器崩溃掉。而多线程模式的服务器一般不存在这个问题，因为顶多是某一个线程崩溃掉，整个服务器还是在线的。所以使用NodeJs构建Web服务器对Programmer要求更高。
+
+### 参考资料
+[Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors)
+
+[深入浅出NodeJs](http://book.douban.com/subject/25768396/) - 第三章 异步I/O
+
+[What-Is-Try-Catch](https://docs.nodejitsu.com/articles/errors/what-is-try-catch)
+
+[Node.js Error Handling Patterns](http://www.nodewiz.biz/nodejs-error-handling-pattern/)
+
+[What are callbacks](https://docs.nodejitsu.com/articles/getting-started/control-flow/what-are-callbacks)
+
+[Mixu's Node book](http://book.mixu.net/node/)
+
+[What are Event Emitters](https://docs.nodejitsu.com/articles/getting-started/control-flow/what-are-event-emitters)
+
+[Using Node's Event Module](http://code.tutsplus.com/tutorials/using-nodes-event-module--net-35941)
