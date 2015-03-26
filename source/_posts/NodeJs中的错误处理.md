@@ -14,7 +14,33 @@ categories: [NodeJs, Programming]
 后来服务器端又采用了单线程异步IO的处理方式，如Nginx和NodeJs。你可能会疑问，我们的计算机一般都是多核多CPU的，为什么不是多线程异步IO的处理方式呢？因为多进程（线程）编程是痛苦的，如果你做过相关的多进程（线程）并发编程，你可能知道在编写程序的过程中维护共享变量，或者进程间通信是多么痛苦的一件事情，这样的程序极容易出错，而且很难维护。所以NodeJs的作者采用单线程，异步IO的方式来实现高并发服务器。
 
 ### NodeJs服务器的问题
-因为NodeJs采用单线程，异步IO的处理方式，服务其的主体程序是在一个JavaScript主线程中通过异步的方式执行的，所以一旦编写的程序哪一个部分出错，则可能导致服务器崩溃或者后续的操作不可预测，最后导致整个服务器崩溃掉。而多线程模式的服务器一般不存在这个问题，因为顶多是某一个线程崩溃掉，整个服务器还是在线的。所以使用NodeJs构建Web服务器对Programmer要求更高。
+因为NodeJs采用单线程，异步IO的处理方式，服务器的主体程序是在一个JavaScript主线程中通过异步的方式执行的，所以一旦编写的程序哪一个部分出错，则可能导致服务器崩溃或者后续的操作不可预测，最后导致整个服务器崩溃掉。而多线程模式的服务器一般不存在这个问题，因为顶多是某一个线程崩溃掉，整个服务器还是在线的。所以使用NodeJs构建Web服务器对Programmer要求更高。
+
+### 错误的类别
+一般来说，程序中会出现的错误分为两种，一种是Operational错误，一种是Programmer错误。
+Operational错误指即使是程序书写正确，也会在运行的时候遇到的问题，如：
+- failed to connect to server
+- failed to resolve hostname
+- invalid user input
+- request timeout
+- server returned a 500 response
+- socket hang-up
+- system is out of memory
+- ...
+
+以上这些错误只是简单的举个例子，在实际的问题中，我们可能遇到各种各样的错误，而这些错误一般不是因为我们程序书写错误，而是由于我们所调用的类库出错而抛出的。
+
+Programmer错误指程序书写有误，往往我们可以通过修改程序修正这种错误。如：
+- tried to read property of "undefined"
+- called an asynchronous function without a callback
+- passed a "string" where an object was expected
+- passed an object where an IP address string was expected
+- ...
+
+### 一般程序处理错误的方式
+以上的错误分类在各种编程语言中都会遇到，但是各种编程语言处理错误的方式却不相同。如C语言通过**函数返回值**的形式来处理错误，这是最经典朴素的方式。C++，Java，Python当然也支持最函数返回值的形式，但是侧重于使用**throw/try/catch**模式处理错误。例如在Java中你会经常需要处理IOExeption，不处理，那么你的程序有可能崩掉。而到了异步编程的世界，一般来说前面两种处理方式不起作用，例如在异步函数中你使用throw抛出错误，而在异步函数的caller中就捕捉不到抛出的异常，因为caller在准备接收异常的时候，可能throw所在的函数还没有运行，或者throw的时候，caller早已经过去了。所以说一般在异步编程中，不使用throw/try/catch。当然，为了处理异步编程中的错误，引入了**回调函数**和**eventEmitter**模式。若不了解什么是回调函数和eventEmitter，请参考[What are callbacks](https://docs.nodejitsu.com/articles/getting-started/control-flow/what-are-callbacks)和[What are Event Emitters](https://docs.nodejitsu.com/articles/getting-started/control-flow/what-are-event-emitters)。
+
+
 
 ### 参考资料
 [Error Handling in Node.js](https://www.joyent.com/developers/node/design/errors)
