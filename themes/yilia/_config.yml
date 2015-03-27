@@ -30,7 +30,7 @@ mathjax: true
 
 # Miscellaneous
 google_analytics: ''
-favicon: /favicon.png
+favicon: /img/favicon.ico
 
 #你的头像url
 avatar: "https://avatars3.githubusercontent.com/u/5053620?v=3&s=460"
