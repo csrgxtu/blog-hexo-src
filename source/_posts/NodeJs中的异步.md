@@ -19,11 +19,15 @@ categories: [Programming]
 
 总的来说，NodeJs虽然讲是单线程，异步，事件驱动的，但是这里我主要想讲，**NodeJs也是通过多线程的方式实现异步的。**我们所讲的单线程只是指向NodeJs代码运行的主线程而已，异步的操作都是通过底层线程池完成的。
 
+当然，NodeJs是异步实现，那么我们在编写应用程序的过程中，就尽量使用异步的方式 -- callback，这样我们的应用程序才能具有异步的高性能，否则还不如使用同步的方式编写。
+
 ### NodeJs的多进程（线程）方法
 并不是说NodeJs是单线程的就不支持多进程化，我们仍然可以使用NodeJs的**child_process**来实现多进程操作，这就与Linux的**fork, exec**等一样了，当然，若你不想使用这么原始的方式实现多进程，那么你可以通过NodeJs的**cluster**模块简单实现。
 
 ## 参考资料
 [深入浅出NodeJs](http://book.douban.com/subject/25768396/) - 第三章
+
+[深入浅出NodeJs](http://book.douban.com/subject/25768396/) - 第九章
 
 [NodeJs child_process](https://nodejs.org/api/child_process.html)
 
