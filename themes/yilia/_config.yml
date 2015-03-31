@@ -10,16 +10,16 @@ menu:
 # SubNav
 subnav:
   github: "https://github.com/csrgxtu"
+  linkedin: "http://cn.linkedin.com/in/csrgxtu"
+  mail: "1246506786@qq.com"
+  quora: "http://www.quora.com/Archer-Reilly-1"
   zhihu: "http://www.zhihu.com/people/reilly-archer"
   google: "https://plus.google.com/111503895773523107943/posts"
-  weibo: "http://weibo.com/u/1818333674/home?wvr=5"
-  mail: "1246506786@qq.com"
+  #weibo: "http://weibo.com/u/1818333674/home?wvr=5"
   rss: "/atom.xml"
-  quora: "http://www.quora.com/Archer-Reilly-1"
   #douban: ""
   #facebook: "#"
   #twitter: "#"
-  #linkedin: "#"
 
 rss: /atom.xml
 
