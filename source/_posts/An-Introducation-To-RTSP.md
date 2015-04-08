@@ -27,9 +27,6 @@ if you roughly understand what **HTTP** is, then **RTSP** is the same thing. jus
 
 **RTSP** is a network control protocol designed for use in entertainment and communication systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points, for example, *play* and *puase*.
 
-
-
-
 ### How it works
 
 ### References
