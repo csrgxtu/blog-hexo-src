@@ -36,10 +36,61 @@ First, install the libstreaming app [example1](https://github.com/fyhertz/libstr
 
 Second, start telnet and connect to android rtsp server.
 ```bash
-$ telnet 192.168.10.93 8086
-Trying 192.168.10.93...
-Connected to 192.168.10.93.
-Escape character is '^]'.
+> $ telnet 192.168.10.93 8086
+> Trying 192.168.10.93...
+> Connected to 192.168.10.93.
+> Escape character is '^]'.
+```
+
+Third, after connected to RTSP Server, first see what opeations it support.
+```bash
+> OPTIONS rtsp://192.168.10.93:1234 RTSP/1.0
+> CSeq: 1
+
+< RTSP/1.0 200 OK
+< Server: MajorKernelPanic RTSP Server
+< Cseq: 1
+< Content-Length: 0
+< `Public: DESCRIBE,SETUP,TEARDOWN,PLAY,PAUSE`
+```
+You can see from the response of the RTSP Server, there are **DESCRIBE, SETUP, TEARDOWN, PLAY, PAUSE**
+
+Fourth, let RTSP Server describe the streaming is has.
+```bash
+> DESCRIBE rtsp://192.168.10.93:1234 RTSP/1.0
+> CSeq: 2
+
+< RTSP/1.0 200 OK
+< Server: MajorKernelPanic RTSP Server
+< Cseq: 2
+< Content-Length: 467
+< Content-Base: 192.168.10.93:8086/
+< `Content-Type: application/sdp`
+
+< v=0
+< o=- 0 0 IN IP4 192.168.10.93
+< s=Unnamed
+< i=N/A
+< c=IN IP4 192.168.10.95
+< t=0 0
+< a=recvonly
+< `m=audio 5004 RTP/AVP 96`
+< a=rtpmap:96 mpeg4-generic/8000
+< a=fmtp:96 streamtype=5; profile-level-id=15; mode=AAC-hbr; config=1588; SizeLength=13; IndexLength=3; IndexDeltaLength=3;
+< a=control:trackID=0
+< `m=video 5006 RTP/AVP 96`
+< a=rtpmap:96 H264/90000
+< a=fmtp:96 packetization-mode=1;profile-level-id=428014;sprop-parameter-sets=Z0KAFNoFB+Q=,aM4G4g==;
+< a=control:trackID=1
+```
+In this step, the server returned the streaming information in sdp format, as you can see audio and video information.
+
+Fifth, now you know the streaming information, now setup the transport protocol and port information.
+```bash
+> SETUP 192.168.10.93:1234/trackID=1 RTSP/1.0
+> CSeq: 3
+
+< 
 ```
 
 ### References
