@@ -36,7 +36,11 @@ First, install the libstreaming app [example1](https://github.com/fyhertz/libstr
 
 Second, start telnet and connect to android rtsp server.
 ```bash
-telnet 192.168.10.93 8086
+$ telnet 192.168.10.93 8086
+Trying 192.168.10.93...
+Connected to 192.168.10.93.
+Escape character is '^]'.
+```
 
 ### References
 [Hypertext Transfer Protocol](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
