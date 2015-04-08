@@ -23,6 +23,12 @@ The main thing you will remember about HTTP is its methods, like **GET, PUT, POS
 
 And what is **protocol** used for really? actually you can think that protocols are rules that made to make communication between endpoints easier and  much more crossplatform. just like our spoken languages we used to talk with each other.
 
+if you roughly understand what **HTTP** is, then **RTSP** is the same thing. just like HTTP, RTSP is a text based protocol too, like HTTP methods, RTSP have its own method too, like **OPTIONS, DESCRIBE, SETUP, PLAY, PUASE, TEARDOWN** etc.
+
+**RTSP** is a network control protocol designed for use in entertainment and communication systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points, for example, *play* and *puase*.
+
+
+
 
 ### How it works
 
