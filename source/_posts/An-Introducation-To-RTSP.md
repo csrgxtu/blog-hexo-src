@@ -28,6 +28,15 @@ if you roughly understand what **HTTP** is, then **RTSP** is the same thing. jus
 **RTSP** is a network control protocol designed for use in entertainment and communication systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points, for example, *play* and *puase*.
 
 ### How it works
+To see how it works, I will show you an example. just like HTTP has Apache and Nginx etc, rtsp has its implementation too. but here i am using a simple RTSP server implementation running on Android, namely [libstreaming](https://github.com/fyhertz/libstreaming). and client side i am using telnet.
+
+In the following, I am gonna show you how to use telnet connect to the rtsp server and issue the methods.
+
+First, install the libstreaming app [example1](https://github.com/fyhertz/libstreaming-examples#example-1) on your android phone. and assume your android phone address is *192.168.10.93*.
+
+Second, start telnet and connect to android rtsp server.
+```bash
+telnet 192.168.10.93 8086
 
 ### References
 [Hypertext Transfer Protocol](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
