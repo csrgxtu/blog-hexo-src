@@ -25,3 +25,10 @@ The main thing you will remember about HTTP is its methods, like **GET, PUT, POS
 ### How it works
 
 ### References
+[Hypertext Transfer Protocol](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
+
+[Real Time Messaging Protocol](http://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol)
+
+[Real Time Streaming Protocol](http://www.informit.com/articles/article.aspx?p=169578&seqNum=3)
+
+[Wiki - Real Time Streaming Protocol](http://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol)
