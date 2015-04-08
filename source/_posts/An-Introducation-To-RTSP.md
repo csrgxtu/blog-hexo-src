@@ -21,6 +21,8 @@ BASH: $who
 
 The main thing you will remember about HTTP is its methods, like **GET, PUT, POST, DELETE, HEAD, OPTIONS** etc, and recent years, their is a jargon called **RESTful API**, it is based on HTTP and these methods.
 
+And what is **protocol** used for really? actually you can think that protocols are rules that made to make communication between endpoints easier and  much more crossplatform. just like our spoken languages we used to talk with each other.
+
 
 ### How it works
 
