@@ -6,3 +6,12 @@ categories: Linux
 In this post, I am gonna to introduce you a streaming protocol **RTSP**(Real Time Streaming Protocol). cause to get myself understand what it is takes me a lot energy, so here you will see a simpler but not too simpler introduction.
 
 Through the introduction, you will see what it is used for and do some experiments with it.
+<!--more-->
+
+### What is RTSP
+Before talking about RTSP, I want to talk about **HTTP** -- Hyper Text Transfer Protocol. cause most of us are much familiar with HTTP rather than RTSP. every time we enter a word in Google Search, the browser will start an HTTP session with web server through HTTP, even through you don't know the undergoing actions.
+
+[HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) is a text based protocol that determines how the browser and web server communicate with each other. if you know something about computer networks, you will know that there are a lot protocols there, like HTTPS, FTP, RTMP, SSH, TCP/UDP etc...
+### How it works
+
+### References
