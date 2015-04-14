@@ -19,7 +19,9 @@ DHTML则是一种动态网页技术，其中的D代表Dynamic的意思。有了D
 
 XMLHttpRequest， 其实是一种在浏览器端实现的可以做Http请求的技术。具体由浏览器实现，暴露给我们的则是简单易用的API。令我惊讶的是，XMLHttpRequest最开始是在微软的Internet Explore5项目中实现的。其实，如果你使用过XMLHttpRequest，你会疑问这个和XML有什么关系？uh，应该是没有直接的关系，只是由于Alex Hopmann开发出这个技术的时候，将其放入到了Internet Explore5项目中的MSXML库中才命名为如此的缘故。**可见微软是个多么随便的公司，正好也验证了其一团糟的软件产品。**
 
+好了，上面说了这么多，还是没有到**CORS**的故事。因为有了XMLHttpRequest的技术，所以我们可以在网页中使用JavaScript访问其它网络资源。但是在客户端与服务器交互的过程中，会产生cookies等涉及安全的东西，若不加限制，XMLHttpRequest则会引起安全漏洞。所以默认的XMLHttpRequest是使用**同源**机制的，只有在同一个域名中，XMLHttpRequest才能访问成功。若example.com中的XMLHttpRequest要访问foo.com中的资源，则会失败。
 
+但是有时候，我们确实需要在一个域名中通过XMLHttpRequest访问另一个域名的资源。所以就有了**CORS**技术。
 
 ### 参考文献
 [Cross-origin resource sharing](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
