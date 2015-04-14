@@ -11,9 +11,21 @@ categories: [JavaScript, HTTP]
 ### What is CORS
 **CORS**只是一种标准，一种规定了客户端，服务器如何通信的机制，不同的服务器实现不同，不同的客户端实现亦不相同。
 
+要讲**CORS**，则必须理解XMLHttpRequest， JavaScript， DHTML等技术。
+
+JavaScript开始叫做LiveScript，因为当时是Netscape公司和Sun公司合作开发，目标是开发一种可以在浏览器中执行的语言，高级程序员 Brendan Eich只有10天左右的时间，匆匆之下完成了编译器，语言规范的设计实现，但是后来他自己也承认了JavaScript是有很多地方不完美。又因为当时Java语言正风起云涌，所以为了避免误解重名，他将其命名为LiveScript，且LiveScript首先在火狐类浏览器中运行。至于后来为什么更名为JavaScript，这我也不知道了。
+
+DHTML则是一种动态网页技术，其中的D代表Dynamic的意思。有了DHTML，我们就可以动态的修改HTML中的内容。这也就是我们经常能使用JavaScript动态修改网页内容的根本原因了。
+
+XMLHttpRequest， 其实是一种在浏览器端实现的可以做Http请求的技术。具体由浏览器实现，暴露给我们的则是简单易用的API。令我惊讶的是，XMLHttpRequest最开始是在微软的Internet Explore5项目中实现的。其实，如果你使用过XMLHttpRequest，你会疑问这个和XML有什么关系？uh，应该是没有直接的关系，只是由于Alex Hopmann开发出这个技术的时候，将其放入到了Internet Explore5项目中的MSXML库中才命名为如此的缘故。**可见微软是个多么随便的公司，正好也验证了其一团糟的软件产品。**
+
+
+
 ### 参考文献
 [Cross-origin resource sharing](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
 
 [HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
 
 [High Performance Browser Networking](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS)
+
+[A Short History of JavaScript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript)
