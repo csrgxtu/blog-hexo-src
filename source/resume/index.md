@@ -1,102 +1,116 @@
-title: "resume"
+title: "简历"
 date: 2015-04-01 08:45:24
 ---
-### <center>Resume Template 2 </center>
-#### Basic Info
-Name   |Archer Reilly  |Gender  |Male               |Age  |23
--------|---------------|--------|-------------------|-----|--
-Degree1|Bechelor       |School  |XiangTan University|Major|Math
-Degree2|Graduator      |School  |XiangTan University|Major|Math & Computer
-Github |[https://github.com/csrgxtu](https://github.com/csrgxtu)|Blog |[http://csrgxtu.github.io](http://csrgxtu.github.io)|LinkedIn |[http://cn.linkedin.com/in/csrgxtu](http://cn.linkedin.com/in/csrgxtu)
-Email  |1246506786@qq.com|Phone |15507311603        |QQ   |1246506786
+## <center>百度数据挖掘开发工程师求职简历 </center>
+#### 基本信息
+姓名： 李强  
+电话： 15507311603  
+邮箱： 1246506786@qq.com  
+Github: https://github.com/csrgxtu  
+Blog： http://csrgxtu.github.io/  
+出生日期： 1991-06-26
+
+学历： 学士(湘潭大学），硕士（湘潭大学在读）  
+本科专业： 信息与计算科学  
+研究生专业及研究方向： 计算数学， 信息检索， 基于大数据的篮球胜负分析预测  
+
 
 *****
 
-#### Summary
->听话的学生不一定是好学生，不听话的学生不一定事情做的得不好。现实世界中是不确定的，复杂的，我所能确定的就是世界的不确定性。时间久了，偶尔会感觉迷茫，但幸亏有开源计算机数学，使我觉得事物依然津津有味。
+#### 总结
+我是数学系出身，从大二开始使用Linux（Ubuntu）开始，就感觉计算机很有趣。从计算机科学的基本课程，到数学基本课程，到大数据相关知识，一直在不停的学习。  
+
+熟练使用Linux平台，会做系统，熟练使用Mysql，MongoDB数据库，经常使用Python，Java，Linux环境编程，了解算法数据结构，实现过简单的分类算法，了解Hadoop及一些基于Python，Java的开源框架平台。
+
+我喜欢看书，阅读博客文章，喜欢与有想法的人学习。
 
 *****
 
-#### Experience
+#### 实习经历
+**研究生阶段跟老师所作科研简介**  
+信息检索  
+基于统计方法和大数据的篮球胜负分析预测  
+2014-06 至今  
+中国 湖南 湘潭大学 数学与计算科学学院
+
+* 学习搜索引擎基本原理，并实现简单的搜索引擎
+* 是用Python，Java采集NBA篮球比赛的数据
+* 调研相关算法的编程语言实现，如极大熵，HMM等
+* 调研相关统计模型，理解其应用背景
+* 根据实际采集的数据，构建模型训练并预测
+
+收获：
+
+* 在学习数据处理的过程中，加强了工程能力
+* 理解了搜索引擎的原理，并实现自己的搜索引擎原型 [Google](https://github.com/csrgxtu/google)
+* 熟悉了基本的分类聚类算法及一些稍微复杂点的分类算法
+* 熟悉从数据整理到模型构建到预测的大数据处理流程
+* 熟练使用Python， Java， Linux编程环境
+* 阅读了诸多相关书籍，感觉知识体系太庞大了，需要专心做事情
 
 **后台开发工程师**  
 湖南亿邦通信有限责任公司  
-February 2014 – Present (1 year 3 months)湖南 长沙 汽车西站附近
+2014-02至今  
+湖南 长沙 汽车西站附近  
 
-* 开始主要负责使用NodeJs开发后台，向前端开发人员提供RESTful接口。
-* 中间使用C语言在路由器上开发从RTSP到RTMP视频流转发功能。
-* 后使用Java给Android开发资料检索系统。
-* 后因为音视频功能，配置管理FreeSwitch和Nginx服务器。
+* 开始主要负责使用NodeJs开发后台，向前端开发人员提供RESTful接口
+* 中间使用C语言在路由器上开发从RTSP到RTMP视频流转发功能
+* 在安霸 海斯等IP摄像头上做嵌入式C开发
+* 后使用Java给Android开发文本资料检索系统
+* 负责配置管理FreeSwitch和Nginx服务器  
+* 使用Java的SSH框架开发湖南省体育局视频信息系统
 
 收获：
 * 熟练使用NodeJs，了解其编程的思想。
 * 第一次在路由器上使用C开发流媒体协议的程序
+* 学会在固定产品摄像头上做嵌入式开发
 * 接触诸多知识，如Android开发，前端开发，Lua开发等
-* 公司工程师文化较好，成长言不能尽。
+* 公司工程师文化较好，成长言不能尽
 
 **服务器运维工程师**  
 湘潭大学 网络信息管理中心  
-August 2013 – January 2014 (6 months)中国 湖南 湘潭大学
+2013-08 至 2014-01  
+中国 湖南 湘潭大学
 
-在湘潭大学网络中心，我主要负责维护学校主页服务器及各个院系服务器，使用Bash，Perl自动化服务器管理。同时涉及服务器硬件的组装维修。工作中，加强了Linux服务器相关知识，能自行组装服务器。看着自己编写的自动化程序每天被网络中心使用，感觉很开心。
+在湘潭大学网络中心，我主要负责维护学校主页服务器及各个院系服务器，使用Bash,Perl, Python自动化服务器管理。同时涉及服务器硬件的组装维修。工作中，加强了Linux服务器相关知识，能自行组装服务器。看着自己编写的自动化程序每天被网络中心使用，感觉很开心。
 
 **语音识别科研项目助理**  
 湘潭大学 数学院  
-June 2012 – September 2012 (4 months)湖南 长沙 湘潭大学
+2012-07 至 2012-10  
+中国 湖南 湘潭大学
 
-在由黄山老师领导的科研项目 -- 基于大词汇量连续语音识别项目中，负责Linux服务器环境维护，使用Perl， Bash进行分词处理。了解语音处理中的分词，标注，HMM模型，HTK工具集。
+在由黄山老师领导的科研项目 -- *基于大词汇量连续语音识别*项目中，负责Linux服务器环境维护，使用Perl， Bash进行分词处理。了解语音处理中的分词，标注，HMM模型，HTK工具集。
 
 收获：  
 由于当时知识面窄，所以只是做一些辅助性的工作。但还是学习到了诸多知识，见识了什么是侃侃而谈的知识渊博，对我启发性很大。
 
 *****
 
-#### Education
-
-**Xiangtan University**  
-bachelor of science in mathematics(数学学士), Computational Mathematics(计算数学)  
-2009 – 2013
-
-大学本科期间，主要时间用在数学和计算机方向上，参加由本院程戈老师指导的软件开发兴趣小组。虽然没有混学生会，但是感觉很充实，因为没有荒废知识。
-
-**Xiangtan University**  
-Graduate's degree(在读研究生), Big Data (大数据)  
-2013
-
-因为是数学专业，又懂计算机，就自然的转向大数据方向。主要做篮球预测，搜索引擎。研究生期间主要做了两件事，一是加强了工程实践能力， 二是学习大数据相关知识。顿感学海无涯，个人精力有限。要学习好大数据这个领域，还得在实际项目中，努力踏实，知识储备要足。
-
-*****
-
 #### Projects
-**[GoogleHosts-Python](https://github.com/csrgxtu/GoogleHosts-Python)**  
-March 2015 – Present  
+**[GoogleHosts-Python](https://github.com/csrgxtu/GoogleHosts-Python)**
 因为科研中经常使用Google，但是中国屏蔽了Google的服务，所以就开发出这个Project，动态检索计算出优质的IP，以使我们能无障碍访问Google的服务。
 
-**[Google Python Search](https://github.com/csrgxtu/gps)**  
-September 2014  
+**[Google Python Search](https://github.com/csrgxtu/gps)**
 自己为了无障碍访问Google的搜索服务，在公网服务器上架设的一个Google镜像搜索。
 
-**[GoogleService-NodeJs](https://github.com/csrgxtu/GoogleService-NodeJs)**  
-September 2014  
-使用NodeJs开发的一个Google Search的RESTful服务。
-
-**[maxent](https://github.com/csrgxtu/maxent)**  
-September 2014  
+**[maxent](https://github.com/csrgxtu/maxent)**
 使用极大熵做篮球预测
 
 **[Googlebot](https://github.com/csrgxtu/Googlebot)**  
-September 2014
 一个多线程的网页爬虫，可以无限制抓取网页信息。
 
-**[Google](https://github.com/csrgxtu/Google)**  
-September 2014
+**[Google](https://github.com/csrgxtu/Google)**
 因为学习搜索引擎的缘故，自己实现的一个简单的搜索引擎，能自动抓取网页，然后检索，然后提供搜索功能。
 
 *****
 
 #### Skills
-
-#### Languages
-
+* 英语四六级
+* Linux， Bash, Perl， Android
+* PHP, Python, NodeJS, Java, C, C++, Lua
+* MySQL, MongoDB, Redis
+* Nginx, Apache, Freeswitch, Mosquitto, MQTT
+* 基本数学， 统计知识
+* Git， SVN, Github
 *****
 <center>Powered By Markdown</center>
