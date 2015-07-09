@@ -17,6 +17,12 @@ categories: Linux
 Docker使用LXC（Linux Container）技术，实现对应用环境的封装。所有开发的代码环境放置在Docker的Container中，然后其它系统就可以通过Container来部署系统。关于虚拟机和Docker的对比，请参考下图：
 ![vm.png](/img/vm.png)
 ![dockerc.png](/img/dockerc.png)
+所以，简要的说，Docker是：
+>An open platform for distributed applications for developers and sysadmins
+
+
+### 如何使用Docker
+在讲的多，不如亲自动手实践一下，这里我就不一步一步说明了，而是推荐[Get Started with Docker for Linux](http://docs.docker.com/linux/started/)，跟着教程里面的说明一步一步实践一下即可理解Docker。
 
 #### 参考资料
 [Docker到底是什么？为什么它这么火！](http://cloud.51cto.com/art/201410/453718.htm)  
