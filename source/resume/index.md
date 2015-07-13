@@ -18,7 +18,7 @@ Blog： http://csrgxtu.github.io/
 *****
 
 #### 总结
-我喜欢使用Linux，从10年至今，或多或少的接触了诸多编程方面的知识，熟练使用Linux平台，会做系统，熟练使用Mysql，MongoDB数据库，经常使用Python，Java，Linux环境编程，了解算法数据结构，实现过简单的分类算法，了解Hadoop及一些基于Python，Java的开源框架平台。主要是偏向与科学计算和系统后台开发维护。
+我喜欢使用Linux，从10年至今，或多或少的接触了诸多编程方面的知识，熟练使用Linux平台，会做系统，熟练使用Mysql，MongoDB数据库，经常使用Python，Java，Linux环境编程，了解算法数据结构，实现过简单的分类算法，了解Hadoop及一些基于Python，Java的开源框架平台。技术主要是偏向与科学计算和系统后台开发维护。
 *****
 
 #### 实习经历
