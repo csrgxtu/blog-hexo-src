@@ -24,6 +24,7 @@ Blog： http://csrgxtu.github.io/
 
 我喜欢看书，阅读博客文章，喜欢与有想法的人学习。
 
+我喜欢使用Linux，从10年至今，或多或少的接触了诸多编程方面的知识，熟练使用Linux平台，会做系统，熟练使用Mysql，MongoDB数据库，经常使用Python，Java，Linux环境编程，了解算法数据结构，实现过简单的分类算法，了解Hadoop及一些基于Python，Java的开源框架平台。
 *****
 
 #### 实习经历
@@ -107,9 +108,9 @@ Blog： http://csrgxtu.github.io/
 #### Skills
 * 英语四六级
 * Linux， Bash, Perl， Android
-* PHP, Python, NodeJS, Java, C, C++, Lua
+* PHP, Python, NodeJS, Java, C, C++, Lua, Ruby on Rails
 * MySQL, MongoDB, Redis
-* Nginx, Apache, Freeswitch, Mosquitto, MQTT
+* Nginx, Apache, Freeswitch, Mosquitto, MQTT, Docker, 虚拟化
 * 基本数学， 统计知识
 * Git， SVN, Github
 *****
