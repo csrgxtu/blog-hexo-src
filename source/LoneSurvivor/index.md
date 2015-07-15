@@ -4,10 +4,10 @@ date: 2015-07-13 13:02:02
 <center><img src="/img/lonesurvivor.jpg"></center>
 >There's a storm inside of us. I've heard many guys speak of this. A burning. A river. A drive. An unrelenting desire to push yourself harder and further than anyone could think possible. Pushing ourselves into those cold, dark corners, where the bad things live. Where the bad things fight. We wanted that fight at the highest volume. A loud fight. The loudest, coldest, darkest, most unpleasant of the unpleasant fights.
 
-   |13/Jul | 13/Jul | 13/Jul | 14/Jul | 15/Jul
+   |13/Jul | 14/Jul | 15/Jul | 16/Jul | 17/Jul
 ---|-------|--------|--------|--------|-------
-5KM| **N** | **Y**  |        |        |
-PF | **Y** |        |        |        |
+5KM| **N** | **Y**  | **Y**  |        |
+PF | **Y** | **Y**  |        |        |
 
    |18/Jul | 19/Jul | 20/Jul | 21/Jul | 22/Jul
 ---|-------|--------|--------|--------|-------
