@@ -4,7 +4,7 @@ date: 2015-04-01 08:45:24
 ## <center>求职简历 </center>
 #### 基本信息
 姓名： 李强  
-电话： 15507311603  
+电话： 15580018851  
 邮箱： 1246506786@qq.com  
 Github: https://github.com/csrgxtu  
 Blog： http://csrgxtu.github.io/  
