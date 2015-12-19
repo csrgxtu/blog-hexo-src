@@ -9,6 +9,9 @@ tags: [Probabilistic Gragh, 概率图模型]
 很多事情是具有不确定性的。人们往往希望从不确定的东西里尽可能多的得到确定的知识、信息。为了达到这一目的，人们创建了概率理论来描述事物的不确定性。在这一基础上，人们希望能够通过已经知道的知识来推测出未知的事情，无论是现在、过去、还是将来。  
 涉及到概率的相关问题，无论有多复杂，大抵都是基于以下两个式子的——加法准则和乘法准则：  
 $P(Data | M)$
+
+![equ1](/img/116.png)
+
 ### 参考文献
 [概率图模型的理论与实战](http://dataunion.org/16448.html)  
 [CMU Probabilistic Graphical Models](http://www.cs.cmu.edu/~epxing/Class/10708/lecture.html)  
