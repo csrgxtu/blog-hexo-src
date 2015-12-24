@@ -1,4 +1,5 @@
-title: "HMM Usage in Pos tagging"
+title: "隐马儿科夫模型在词性标注中的应用"
 date: 2015-12-24 15:50:12
-tags:
+tags: [HMM, POS]
 ---
+这篇文章主要阐述隐马儿科夫模型在词性标注中的应用。词性标注POS--Part Of Speech Tagging，通俗讲就是给定一个句子S=W1W2W3...Wn，获取其对应的词性的序列T=T1T2T3...Tn的过程。其中词性是
