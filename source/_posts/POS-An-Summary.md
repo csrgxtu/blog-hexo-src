@@ -65,3 +65,6 @@ P(y|x,λ)=1Z(x)∗exp(Σλj∗Fj(y,x))
 最近看到[这篇论文](http://aclweb.org/anthology//D/D13/D13-1061.pdf)，已经有人用deep learning的方法来尝试解决分词的算法，也取得了不错的效果。
 
 总之现在的中文分词技术相对来说还是比较成熟了，所以如果没有必要用这些开源的分词实现已经足够了，不过鉴于学习的目的，自己去实现一个分词算法还是很有趣的。
+
+#### 转载链接
+[浅谈中文分词](http://www.isnowfy.com/introduction-to-chinese-segmentation/)
