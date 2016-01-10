@@ -28,3 +28,5 @@ f2(S,i,li,li−1)=1 if i=1, li= VERB, and the sentence ends in a question mark; 
 这样我们就可以通过训练数据集计算出P(L|S)，可是上面是直接使用特征对应的权值，一开始我们并不知道权值应该是多少，不过可以先随机初始化，然后使用梯度下降法通过训练数据集找出最合适的权值。  
 
 以上就是CRF在词性标注中的主要问题。然后预测，可以使用维特比算法利用CRF马儿科夫随机场的局部独立性快速找出最优的标记序列。就这样了，我先去开会了。
+
+[Introduction to Conditional Random Fields](http://blog.echen.me/2012/01/03/introduction-to-conditional-random-fields/)
