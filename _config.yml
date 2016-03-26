@@ -61,9 +61,9 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
-plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
+#plugins:
+#- hexo-generator-feed
+#- hexo-generator-sitemap
 
 ## Themes: http://hexo.io/themes/
 theme: yilia
