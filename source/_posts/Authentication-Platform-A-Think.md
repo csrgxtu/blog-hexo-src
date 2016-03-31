@@ -1,5 +1,5 @@
 ---
-title: Authentication Platform -- A Think
+title: 认证平台思考
 date: 2016-03-26 16:58:17
 tags: ["Architecture"]
 ---
