@@ -1,0 +1,62 @@
+# Header
+menu:
+  All: /archives
+  Home: /
+  Linux: /categories/Linux
+  DataLab: /categories/DataLab 
+  Programming: /categories/Programming-Language
+  # 随笔: /tags/随笔
+
+# SubNav
+subnav:
+  github: "https://github.com/csrgxtu"
+  linkedin: "http://cn.linkedin.com/in/csrgxtu"
+  mail: "1246506786@qq.com"
+  quora: "http://www.quora.com/Archer-Reilly-1"
+  zhihu: "http://www.zhihu.com/people/reilly-archer"
+  google: "https://plus.google.com/111503895773523107943/posts"
+  #weibo: "http://weibo.com/u/1818333674/home?wvr=5"
+  rss: "/atom.xml"
+  #douban: ""
+  #facebook: "#"
+  #twitter: "#"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: true
+
+# Miscellaneous
+google_analytics: ''
+favicon: /img/favicon.ico
+
+#你的头像url
+avatar: "https://avatars3.githubusercontent.com/u/5053620?v=3&s=460"
+#avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AiKn3kCGcGotap4VGv_HyZO9n1VDli5z5AnIAj2rt8qZyxO1"
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: true
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+  奥巴马的博客: http://localhost:4000/
+  卡卡的美丽传说: http://localhost:4000/
+  本泽马的博客: http://localhost:4000/
+  吉格斯的博客: http://localhost:4000/
+  习大大大不同: http://localhost:4000/
+  托蒂的博客: http://localhost:4000/
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: I'am interested something new and useful

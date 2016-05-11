@@ -18,9 +18,11 @@ Blog： http://csrgxtu.github.io/
 *****
 
 #### 总结
-我想努力成为一名全栈工程师，以前主要是使用Golang，NodeJs，Ruby，Python等做后端API开发，使用前端库做界面，使用Java开发Android端。因为研究生和实习的缘故，经常做一些数据处理方面的工作，如推荐，分类，序列标注等，想继续在Hadoop，Spark系统上开发。总体来说，我主要侧重与两方面，一是服务端开发，另一个是数据处理方向。  
+我的主要方向是系统开发和大数据处理。因为工作学习的原因，也会前端开发，安卓APP开发，系统运维，数据库，数据挖掘算法，搜索引擎，自然语言处理等。
 
-喜欢学习新的东西技术，并将其应用到现有的系统中，喜欢看各种各样的图书，喜欢跑步爬山，喜欢和朋友讨论技术，讨论未来，喜欢谷歌。
+熟练使用PHP, Python, NodeJs, Golang, Ruby开发API系统，使用Java做Android开发， 使用Python, Java做大数据处理相关等。喜欢阅读书籍，尝试最新的技术。
+
+想继续朝着系统架构，大数据方向发展。
 *****
 
 #### 工作经历
@@ -28,15 +30,17 @@ Blog： http://csrgxtu.github.io/
 广州美丽阅读  
 2015-09 至今  
 广东 广州 天河区 华强路 保利克洛维
-* 美丽阅读微信微博系统开发
-* 美丽阅读书籍推荐系统，大数据处理
-* 秘密书架运营后台的全栈开发（Go)
-* 运营部门KPI指标展板全栈开发（Ruby）
-* 豆瓣，亚马逊，晒书房书籍数据的分布式爬虫系统（Python）
-* 美丽阅读公众号功能全栈开发（Go）
-* Auth0身份认证系统内部实现开发（Go，NodeJs）  
-* API Gateway的实现开发（Go）
-* 原有系统应用架构重构
+* 使用Erlang/OTP开发机构用户登录API
+* 书籍管理审查系统(NodeJs)
+* 美丽阅读微信微博系统开发(Go)
+* 美丽阅读书籍推荐系统，大数据处理(Python)
+* 秘密书架运营后台的全栈开发(Go)
+* 运营部门KPI指标展板全栈开发(Ruby)
+* 豆瓣，亚马逊，晒书房书籍数据的分布式爬虫系统(Python)
+* 美丽阅读公众号功能全栈开发(Go)
+* Auth0身份认证系统内部实现开发(Go，NodeJs)  
+* API Gateway的实现开发(Go)
+* 原有系统应用架构重构(Go, NodeJs)
 * 一些琐碎的事情，如数据分析etc
 
 收获：
@@ -117,6 +121,12 @@ Blog： http://csrgxtu.github.io/
 *****
 
 #### Projects
+**[shampo](https://github.com/csrgxtu/shampoo)**
+使用Android播放rtsp流。
+
+**[Shepherd](https://github.com/csrgxtu/Shepherd)**
+使用Golang实现的GPS追踪的服务端。
+
 **[GoogleHosts-Python](https://github.com/csrgxtu/GoogleHosts-Python)**
 因为科研中经常使用Google，但是中国屏蔽了Google的服务，所以就开发出这个Project，动态检索计算出优质的IP，以使我们能无障碍访问Google的服务。
 
@@ -137,7 +147,7 @@ Blog： http://csrgxtu.github.io/
 #### Skills
 * 英语四六级
 * Linux， Bash, Perl， Android
-* Golang, PHP, Python, NodeJS, Java, C, C++, Lua, Ruby on Rails, Html, CSS, Javascript
+* Erlang, Elixir, Golang, PHP, Python, NodeJS, Java, C, C++, Lua, Ruby on Rails, Html, CSS, Javascript
 * MySQL, MongoDB, Redis
 * Nginx, Apache, Freeswitch, Mosquitto, RabbitMQ,  MQTT, Docker, 虚拟化
 * 基本数学，统计学知识
