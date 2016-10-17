@@ -18,40 +18,55 @@ Blog： http://csrgxtu.github.io/
 *****
 
 #### 总结
-我的主要方向是系统开发和大数据处理。因为工作学习的原因，也会前端开发，安卓APP开发，系统运维，数据库，数据挖掘算法，搜索引擎，自然语言处理等。
+我的主要方向是后台系统架构开发和大数据处理．因为工作学习的缘故，接触了后台开发，系统架构，搜索引擎，自然语言处理，书籍图片处理，推荐系统等相关知识．
 
-熟练使用PHP, Python, NodeJs, Golang, Ruby开发API系统，使用Java做Android开发， 使用Python, Java做大数据处理相关等。喜欢阅读书籍，尝试最新的技术。
+可以熟练使用Golang, Python, NodeJs, Java开发．喜欢阅读，尝试新的技术．
 
-想继续朝着系统架构，大数据方向发展。
+想继续朝着系统架构，大数据方向学习深造.
+*****
+
+
+#### 技能
+* 后台系统架构，大数据处理，聚类，分类，推荐，系统运维，数据库
+* Golang，Python，NodeJs，C，Java，Lua，Elixir，PHP，C++，Html，CSS
+* Docker, Kong, Nginx, ElasticSearch，Apache, Freeswitch, Mosquitto, RabbitMQ,  MQTT
+* MySQL, MongoDB, Redis，Cassandra, HBase
+* Git，SVN, Github，DockerHub
+* 基本数学，统计学知识
+* 英语四六级
 *****
 
 #### 工作经历
 **后台开发，系统架构方向**  
-广州美丽阅读  
+广州美读信息科技有限公司 　
 2015-09 至今  
 广东 广州 天河区 华强路 保利克洛维
+* 使用Golang开发美读支付平台（基于微信，支付宝）
+* 后台整体架构重构（API Gateway）
+* 使用OpenCV，OCR提高书架扫书的正确率
+* 添加语音书籍搜索功能(demo)
+* 书架项目后台开发(接手)
+* 给孩子的诗后台开发
+* 2016年七夕以书识人系统开发（６小时１０Ｗ访问）
+* 美丽阅读书籍推荐系统，大数据处理(Python)
+* 豆瓣，亚马逊，晒书房书籍数据的分布式爬虫系统(Python)
+* 微信小程序开发
+* 美丽阅读公众号功能全栈开发(Go)
 * 使用Erlang/OTP开发机构用户登录API
 * 书籍管理审查系统(NodeJs)
-* 美丽阅读微信微博系统开发(Go)
-* 美丽阅读书籍推荐系统，大数据处理(Python)
 * 秘密书架运营后台的全栈开发(Go)
 * 运营部门KPI指标展板全栈开发(Ruby)
-* 豆瓣，亚马逊，晒书房书籍数据的分布式爬虫系统(Python)
-* 美丽阅读公众号功能全栈开发(Go)
 * Auth0身份认证系统内部实现开发(Go，NodeJs)  
-* API Gateway的实现开发(Go)
-* 原有系统应用架构重构(Go, NodeJs)
 * 一些琐碎的事情，如数据分析etc
 
 收获：
-* 加强了Python, NodeJs的开发经验
-* 熟练使用Ruby Sinatra开发框架
-* 熟练使用Golang开发系统
-* 熟悉身份认证系统
 * 熟悉API Gateway
+* 加强了Python, NodeJs的开发经验
+* 熟练使用Golang开发系统
+* 熟练使用Ruby Sinatra开发框架
+* 熟悉身份认证系统
 * 意识到扎实的基础工程能力的重要性
 * 公司随处可见的书籍资料使我感觉充实
-* 跟着海叔，肖总，丽姐等人历练了许多
 
 **后台开发工程师**  
 湖南亿邦通信有限责任公司  
@@ -144,13 +159,4 @@ Blog： http://csrgxtu.github.io/
 
 *****
 
-#### Skills
-* 英语四六级
-* Linux， Bash, Perl， Android
-* Erlang, Elixir, Golang, PHP, Python, NodeJS, Java, C, C++, Lua, Ruby on Rails, Html, CSS, Javascript
-* MySQL, MongoDB, Redis
-* Nginx, Apache, Freeswitch, Mosquitto, RabbitMQ,  MQTT, Docker, 虚拟化
-* 基本数学，统计学知识
-* Git， SVN, Github， DockerHub
-*****
 <center>Powered By Markdown</center>
