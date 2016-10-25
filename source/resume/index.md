@@ -5,6 +5,7 @@ date: 2015-04-01 08:45:24
 #### 基本信息
 姓名： 李强  
 电话： 15580018851  
+微信：csrgxtu  
 邮箱： 1246506786@qq.com  
 Github: https://github.com/csrgxtu  
 Blog： http://csrgxtu.github.io/  
@@ -30,7 +31,7 @@ Blog： http://csrgxtu.github.io/
 * 后台系统架构，大数据处理，聚类，分类，推荐，系统运维，数据库
 * Golang，Python，NodeJs，C，Java，Lua，Elixir，PHP，C++，Html，CSS
 * Docker, Kong, Nginx, ElasticSearch，Apache, Freeswitch, Mosquitto, RabbitMQ,  MQTT
-* MySQL, MongoDB, Redis，Cassandra, HBase
+* Hadoop，Hive，HBase，MySQL, MongoDB, Redis，Cassandra
 * Git，SVN, Github，DockerHub
 * 基本数学，统计学知识
 * 英语四六级
@@ -43,11 +44,12 @@ Blog： http://csrgxtu.github.io/
 广东 广州 天河区 华强路 保利克洛维
 * 使用Golang开发美读支付平台（基于微信，支付宝）
 * 后台整体架构重构（API Gateway）
+* 使用Hadoop, Hive分析生产日志，统计信息．
 * 使用OpenCV，OCR提高书架扫书的正确率
 * 添加语音书籍搜索功能(demo)
 * 书架项目后台开发(接手)
 * 给孩子的诗后台开发
-* 2016年七夕以书识人系统开发（６小时１０Ｗ访问）
+* 2016年七夕以书识人系统开发（６小时10Ｗ访问）
 * 美丽阅读书籍推荐系统，大数据处理(Python)
 * 豆瓣，亚马逊，晒书房书籍数据的分布式爬虫系统(Python)
 * 微信小程序开发
