@@ -14,6 +14,23 @@ TCP, UDP层位于IP层上面，如下图为OSI和TCP/IP模型图：
 TCP的链接建立需要三次交换数据包，而链接断开需要四次数据包交换，所以分别叫做三次握手和四次挥手。如下图所示：
 ![tcp handshake](/img/tcphandshake.png)
 
+** 链接建立 **  
+client 通过sys call connect 建立到server的链接  
+* client首先发送SYN包，里面带有client这端的ISN(C)和一些options，在包的header里面，SYN二进制位为TRUE
+
+* server接收client的SYN（client)，根据sequence number对其确认，并同时发送server端的ISN（S）。即ACK+SYN包
+
+* client接收来自server的ACK+SYN，对server的sequece number进行ACK，即发送ACK包
+
+** 链接中断 **
+这里假设client首先发起断开链接的请求  
+client通过调用sys call close 或者shutdown实现断开链接的操作  
+* client发送FIN+ACK包，ACK是对当前接收到的包的确认，里面含有当前的sequence number和ack value。  
+* server接收client的FIN+ACK包，对其按照client的sequece number进行确认。  
+* server发送FIN+ACK包，里面含有server端当前的sequece number和ack。  
+* client接收到server的FIN+ACK，对其确认。
+
+#### Experiment
 下面两段代码表示client连接到服务端，向服务端发送一个文本消息，服务端回复一个文本消息，服务端断开，客户端断开。
 ~~~~c
 // client.c
@@ -147,3 +164,6 @@ int main(int argc, char *argv[])
 
 ** 断开链接 **  
 编号299的数据包为server发送完文本消息后主动断开链接，通过设置TCP header的FIN标志位。300为client接收到server发送过来的FIN包对其确认。client端通过调用close方法发送FIN包（编号301）给服务端，然后服务端对其确认(编号302)。
+
+#### 总结
+上面只是TCP链接建立中断的最基本的过程，其中的特殊情况处理，可携带的参数等详细信息参考书籍<<TCP/IP Illustrated Volumne I>>.
