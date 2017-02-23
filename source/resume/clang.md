@@ -13,7 +13,7 @@ Blog： http://csrgxtu.github.io/
 
 学历： 学士(湘潭大学），硕士（湘潭大学）  
 本科专业： 信息与计算科学  
-研究生专业及研究方向： 计算数学， 专利文献信息检索， 基于统计方法的篮球胜负分析预测   数据挖掘 搜索引擎
+研究生专业及研究方向： 计算数学，专利文献信息检索，基于统计方法的篮球胜负分析预测， 数据挖掘，搜索引擎
 
 
 *****
@@ -21,7 +21,7 @@ Blog： http://csrgxtu.github.io/
 #### 总结
 我之前的主要方向是后台系开发和大数据处理．因为工作学习的缘故，接触了Linux下系统，网络编程，系统架构，搜索引擎，自然语言处理，书籍图片处理，推荐系统等相关知识．
 
-可以熟练使用C，Golang, Python, NodeJs, Java开发．喜欢阅读，实践新的技术，方法．
+可以熟练使用C，Golang，Python，NodeJs，Java开发．喜欢阅读，实践新的技术，方法．
 
 想继续朝着基础后台开发方向深入研究.
 *****
@@ -30,9 +30,9 @@ Blog： http://csrgxtu.github.io/
 #### 技能
 * 后台系统，Linux系统编程，socket编程，数据库，微服务，系统运维，大数据处理，聚类，分类
 * C，Golang，Python，NodeJs，Java，Lua，Html
-* Nginx，Docker, ElasticSearch，Apache, Freeswitch, Mosquitto, MQTT
-* MySQL，PostgreSQL，Hadoop，Hive， MongoDB, Redis，Cassandra
-* Git，SVN, Github，DockerHub
+* Nginx，Docker，ElasticSearch，Apache，Freeswitch，MQTT
+* MySQL，PostgreSQL，Hadoop，Hive，MongoDB，Redis，Cassandra
+* Git，SVN，Github，DockerHub
 * 基本数学，统计学知识
 * 英语四六级
 *****
@@ -40,7 +40,7 @@ Blog： http://csrgxtu.github.io/
 #### 工作经历
 **后台开发，系统架构方向**  
 广州美读信息科技有限公司 　
-2015-09 2016-10  
+2015-09 2016-12  
 广东 广州 天河区 华强路 保利克洛维
 * 使用Golang开发美读支付平台（基于微信，支付宝）
 * 美丽阅读公众号功能全栈开发(Go)
