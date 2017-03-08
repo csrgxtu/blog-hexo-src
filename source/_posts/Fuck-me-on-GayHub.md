@@ -6,7 +6,7 @@ tags: [css, html]
 If you familiar with "Fork me on GitHub", then here I use "Fuck me on GayHub", read more to find out how to set it up.
 <!--more-->
 
-![FUCK ME ON GAYHUB](../img/FuckmeonGayHub.png)
+![FUCK ME ON GAYHUB](/img/FuckmeonGayHub.png)
 
 first, add the CSS ribon cdn to your page's head
 ```html
