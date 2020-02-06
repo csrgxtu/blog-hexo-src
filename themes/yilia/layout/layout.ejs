@@ -1,7 +1,8 @@
 <%- partial('_partial/head') %>
 <body>
   <a class="github-fork-ribbon" href="http://github.com/csrgxtu" title="Fuck me on GayHub">Fuck me on GayHub</a>
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <div id="container">
     <div class="left-col">
     <%- partial('_partial/left-col', null, {cache: !config.relative_link}) %>
@@ -13,5 +14,6 @@
     </div>
     <%- partial('_partial/after-footer') %>
   </div>
+
 </body>
 </html>
