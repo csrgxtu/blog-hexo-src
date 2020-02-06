@@ -77,10 +77,10 @@ To summarize, there are following cache types:
 ### cache Patterns
 
 #### Cache aside
-
+> # to-do
 #### Read/Write through
-
+> # to-do
 #### Write behind
-
+> # to-do
 ### 3 major problems and solutions in cache world
 
