@@ -39,48 +39,73 @@ To summarize, there are following cache types:
                                  |        Browser Cache         |   
                                  |                              |   
                                  +------------------------------+   
-                                                                    
-                                                                    
+                                                                
                                  +-----------------------------+    
                                  |                             |    
                                  |             CDN             |    
                                  |                             |    
                                  +-----------------------------+    
-                                                                    
-                                                                    
+                                                            
                                  +-----------------------------+    
                                  |                             |    
                                  |      Proxy Cache(Nginx)     |    
                                  |                             |    
                                  +-----------------------------+    
-                                                                    
-                                                                    
-                                                                    
+                                                                
                                  +-----------------------------+    
                                  |                             |    
                                  |  Distributed Cache(Redis)   |    
                                  |                             |    
                                  +-----------------------------+    
-                                                                    
-                                                                    
+                                                                
                                  +-----------------------------+    
                                  |                             |    
                                  |      In Memory Cache        |    
                                  |                             |    
                                  +-----------------------------+    
-                                                                    
+                                                        
                                  +-----------------------------+    
                                  |                             |    
                                  |         Database            |    
                                  |                             |    
                                  +-----------------------------+     
+
+As a back end developer, mostly we focus on `Distributed Cache` and `In memory cache`.
+
 ### cache Patterns
 
 #### Cache aside
-> # to-do
+Application will operate DB and cache the same time. as following fig shows:
+![cache aside](/img/cache_aside.png)
+1st, application first query cache, if hit, then use the data from cache  
+2nd, if 1st step not hit, query database directly, return the data  
+3rd, after 2nd step, set the cache with data from database to cache
+
+![cache aside read write](/img/cache_aside_read_write.png)
+
+
 #### Read/Write through
-> # to-do
+normally application only interact with cache, it is the cache proxy's responsibility to sync data between cache and database.
+
+![read write through](/img/read_write_through.png)
+
 #### Write behind
-> # to-do
+different from read/write through, data is sync to db from cache through cron job or message queue.
+
+![write back](/img/write_back.png)
+
+For read-heavy task, `cache aside` and `read/write through` is a better choice, for write heavy task, `write behind` is a better choice.
+
 ### 3 major problems and solutions in cache world
 
+1, cache avalance  
+massive cache keys are expired or cache system down, thus lots of cache missing, then goes to database.  
+set different ttl for different keys, or deploy cache system as cluster.
+
+2, cache breakdown  
+a cache key didn't hit, thus goes to database. sometimes this key will corresponds to high concurrency. thus lots of query goes to database.  
+set a gloable lock when query database for same key to gaurateen only a query goes to database.
+
+3, cache penetration  
+the key not existing in cache, thus whenever you query, it will miss.  
+set this key to cache with value None.
