@@ -74,3 +74,5 @@ deploy:
   type: git
   repo: https://github.com/csrgxtu/csrgxtu.github.io.git
   branch: master
+  name: csrgxtu
+  email: minyakonga@gmail.com
