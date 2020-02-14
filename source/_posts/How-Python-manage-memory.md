@@ -19,3 +19,6 @@ In older version of Python, like version before 2.2, CPython use `glibc`'s `mall
 here is the corresponding logic chart for old version CPython  
 ![old version cpython memory layer](/img/old_version_cpython_mem_logic.png)  
 
+### How CPython manage memory now?
+
+![py memory model](/img/py-mem-model.png)
