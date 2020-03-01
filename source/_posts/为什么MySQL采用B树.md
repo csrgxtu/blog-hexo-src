@@ -1,5 +1,5 @@
 ---
-title: 为什么MySQL采用B树
+title: 为什么MySQL采用B树 --[Draft]
 date: 2020-02-24 12:17:33
 tags: ['MySQL', 'DB']
 ---

@@ -1,5 +1,5 @@
 ---
-title: Redis internal 101
+title: Redis internal 101 --[Draft]
 date: 2020-02-24 12:18:00
 tags: ['Cache', 'Redis']
 ---
