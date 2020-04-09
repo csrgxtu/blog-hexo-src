@@ -543,10 +543,6 @@ Gunicorn config:
 ```bash
 gunicorn -w 8 flask_hello:app
 ```
-Here is the result for single process version:
-```bash
-
-```
 
 Here is the result for multi-processing version:
 ```bash
@@ -590,12 +586,13 @@ Requests/sec:   3613.30
 Transfer/sec:    603.39KB
 ```
 
-
 here is the result on my Linux book:
 
 |   | Single Process  |  Multi-Process |  Non-Blocking I/O | Gunicorn |
 |---|---|---|---|---|
 | QPS  |  todo |  739  |  4128 | 3613 |
+
+And found an interesting thing, Non-Blocking IO will use one process but also can support high qps, at the same time, it takes less CPU than Gunicorn pre-fork model.
 
 
 ### Reference
